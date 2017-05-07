@@ -1,0 +1,19 @@
+{
+  "name": "markdown-it-custom-block",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "markdown-it": "^8.3.1",
+    "markdown-it-testgen": "^0.1.4",
+    "mocha": "^3.3.0"
+  }
+}
