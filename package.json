@@ -1,5 +1,6 @@
 {
   "name": "markdown-it-custom-block",
+  "description": "Custom blocks for markdown-it",
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
@@ -12,6 +13,18 @@
   ],
   "engines": {
     "node": ">= 6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posva/vue-mdc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/posva/vue-mdc/issues"
+  },
+  "homepage": "https://github.com/posva/vue-mdc#readme",
+  "license": {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
   },
   "license": "MIT",
   "devDependencies": {
