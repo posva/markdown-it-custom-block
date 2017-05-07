@@ -1,6 +1,6 @@
 # markdown-it-custom-block
 
-> Handle custom blocks transformations:
+> Handle custom blocks transformations
 
 ## Usage
 
