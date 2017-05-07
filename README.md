@@ -11,3 +11,7 @@ becomes
 ```html
 <example-argument/>
 ```
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
