@@ -10,6 +10,9 @@
     "markdown-it",
     "markdown"
   ],
+  "engines": {
+    "node": ">= 6.0.0"
+  },
   "license": "MIT",
   "devDependencies": {
     "markdown-it": "^8.3.1",
