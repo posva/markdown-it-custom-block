@@ -4,7 +4,15 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "yarn unit",
+    "unit": "mocha --colors",
+    "dev": "npm-watch"
+  },
+  "watch": {
+    "unit": {
+      "patterns": ["index.js", "test/fixtures/*.md", "test"],
+      "extensions": "js,md,txt"
+    }
   },
   "keywords": [
     "markdown-it-plugin",
@@ -26,6 +34,7 @@
   "devDependencies": {
     "markdown-it": "^8.3.1",
     "markdown-it-testgen": "^0.1.4",
-    "mocha": "^3.3.0"
+    "mocha": "^3.3.0",
+    "npm-watch": "^0.1.9"
   }
 }

@@ -13,8 +13,10 @@ module.exports = function plugin (md, options) {
     function customEmbed (state, startLine, endLine, silent) {
       let startPos = state.bMarks[startLine] + state.tShift[startLine]
       let maxPos = state.eMarks[startLine]
+      const block = state.src.slice(startPos, maxPos)
       let pointer = { line: startLine, pos: startPos }
 
+      // XXX wtf
       if (startLine !== 0) {
         let prevLineStartPos = state.bMarks[startLine - 1] +
               state.tShift[startLine - 1]
@@ -27,7 +29,7 @@ module.exports = function plugin (md, options) {
         return false
       }
 
-      const match = embedRE.exec(state.src)
+      const match = embedRE.exec(block)
 
       if (!match || match.length < 3) {
         return false
