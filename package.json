@@ -1,7 +1,7 @@
 {
   "name": "markdown-it-custom-block",
   "description": "Custom blocks for markdown-it",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "scripts": {
     "test": "yarn unit",
@@ -10,7 +10,11 @@
   },
   "watch": {
     "unit": {
-      "patterns": ["index.js", "test/fixtures/*.md", "test"],
+      "patterns": [
+        "index.js",
+        "test/fixtures/*.md",
+        "test"
+      ],
       "extensions": "js,md,txt"
     }
   },
