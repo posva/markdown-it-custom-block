@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/posva/vue-mdc.git"
+    "url": "git+https://github.com/posva/markdown-it-custom-block.git"
   },
   "bugs": {
-    "url": "https://github.com/posva/vue-mdc/issues"
+    "url": "https://github.com/posva/markdown-it-custom-block/issues"
   },
-  "homepage": "https://github.com/posva/vue-mdc#readme",
+  "homepage": "https://github.com/posva/markdown-it-custom-block#readme",
   "license": "MIT",
   "devDependencies": {
     "markdown-it": "^8.3.1",
