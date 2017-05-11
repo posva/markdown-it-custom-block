@@ -24,6 +24,7 @@ module.exports = function plugin (md, options) {
         if (prevLineMaxPos > prevLineStartPos) return false
       }
 
+      // Check if it's @[tag](arg)
       if (state.src.charCodeAt(pointer.pos) !== 0x40/* @ */ ||
           state.src.charCodeAt(pointer.pos + 1) !== 0x5B/* [ */) {
         return false
@@ -40,6 +41,7 @@ module.exports = function plugin (md, options) {
       pointer.pos += all.length
 
       // Block embed must be at end of input or the next line must be blank.
+      // TODO something can be done here to make it work without blank lines
       if (endLine !== pointer.line + 1) {
         let nextLineStartPos = state.bMarks[pointer.line + 1] + state.tShift[pointer.line + 1]
         let nextLineMaxPos = state.eMarks[pointer.line + 1]
