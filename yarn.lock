@@ -871,10 +871,6 @@ lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
 
-"lodash@~ 2.4.1":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
-
 lowercase-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.0.tgz#4e3366b39e7f5457e35f1324bdf6f88d0bfc7306"
@@ -907,12 +903,12 @@ map-visit@^1.0.0:
     object-visit "^1.0.0"
 
 markdown-it-testgen@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/markdown-it-testgen/-/markdown-it-testgen-0.1.4.tgz#fcd13989b476b513fe5d408118af090b54b6a46c"
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/markdown-it-testgen/-/markdown-it-testgen-0.1.5.tgz#e9631b97b64e262e1b4fd461100eba3d2f84a2e2"
   dependencies:
     chai "~ 1.10.0"
     js-yaml "~ 3.2.4"
-    lodash "~ 2.4.1"
+    object-assign "^4.1.1"
 
 markdown-it@^8.4.2:
   version "8.4.2"
@@ -1130,7 +1126,7 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-object-assign@^4.1.0:
+object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
