@@ -38,7 +38,7 @@
   "devDependencies": {
     "markdown-it": "^8.4.2",
     "markdown-it-testgen": "^0.1.4",
-    "mocha": "^5.2.0",
-    "npm-watch": "^0.3.0"
+    "mocha": "^6.1.4",
+    "npm-watch": "^0.6.0"
   }
 }
