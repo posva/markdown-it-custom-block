@@ -36,7 +36,7 @@
   "homepage": "https://github.com/posva/markdown-it-custom-block#readme",
   "license": "MIT",
   "devDependencies": {
-    "markdown-it": "^9.0.0",
+    "markdown-it": "^10.0.0",
     "markdown-it-testgen": "^0.1.4",
     "mocha": "^6.1.4",
     "npm-watch": "^0.6.0"
