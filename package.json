@@ -41,6 +41,6 @@
     "markdown-it": "^12.0.2",
     "markdown-it-testgen": "^0.1.4",
     "mocha": "^7.0.0",
-    "npm-watch": "^0.7.0"
+    "npm-watch": "^0.9.0"
   }
 }
