@@ -926,10 +926,10 @@ normalize-url@^4.1.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
   integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
 
-npm-watch@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/npm-watch/-/npm-watch-0.9.0.tgz#747703f2ec74daf82b6f4a9056e36daa56d8db5e"
-  integrity sha512-C5Rgh5+jvY33K1EH8Qjr1hfpH9Nhasc90QJ0W+JyKg2ogE0LOCZI4xirC8QmywW7XinyBpynwxlrN6aPfjc3Hw==
+npm-watch@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/npm-watch/-/npm-watch-0.10.0.tgz#67e6945cbd04e0fc71fecf20384bbb1a4815b348"
+  integrity sha512-Kiwh44/Yci2SfTRP99WKXsItdDvkQuU9ri99O8Cu4ywl7rniPP4ewP/kD5nZKUfyGilui+5DyFjYg3FyNcBYQw==
   dependencies:
     nodemon "^2.0.7"
     through2 "^4.0.2"
