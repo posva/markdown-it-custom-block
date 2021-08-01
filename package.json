@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "yarn unit",
+    "test": "yarn run unit",
     "unit": "mocha --colors",
     "dev": "npm-watch"
   },
