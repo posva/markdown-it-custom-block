@@ -25,7 +25,7 @@
     "markdown"
   ],
   "engines": {
-    "node": ">= 6.0.0"
+    "node": ">= v14.17.4"
   },
   "repository": {
     "type": "git",
