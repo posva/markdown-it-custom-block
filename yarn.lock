@@ -709,7 +709,7 @@ make-dir@^3.0.0:
   dependencies:
     semver "^6.0.0"
 
-markdown-it-testgen@^0.1.4:
+markdown-it-testgen@^0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/markdown-it-testgen/-/markdown-it-testgen-0.1.6.tgz#9625d3da2b7f9cf9c456c59578076ef65dddbcd4"
   integrity sha512-hYC71G4Mcv3Y7fLTsi4PyoHKSs0P4UgkpzmGBtUYoR/TS83lFbfXUMaI71OiMJ9r4p3fbMhHBwdNTLhSDwmt6Q==
@@ -718,7 +718,7 @@ markdown-it-testgen@^0.1.4:
     js-yaml "^3.13.1"
     object-assign "^4.1.1"
 
-markdown-it@^12.0.2:
+markdown-it@^12.1.0:
   version "12.1.0"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.1.0.tgz#7ad572caddd336bd27a68d20e86bac1fafe8fb20"
   integrity sha512-7temG6IFOOxfU0SgzhqR+vr2diuMhyO5uUIEZ3C5NbXhqC9uFUHoU41USYuDFoZRsaY7BEIEei874Z20VMLF6A==
