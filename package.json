@@ -25,7 +25,7 @@
     "markdown"
   ],
   "engines": {
-    "node": ">= v16.16.0"
+    "node": ">= v16.19.1"
   },
   "repository": {
     "type": "git",
@@ -40,7 +40,7 @@
     "@types/markdown-it": "^12.2.3",
     "markdown-it": "^13.0.1",
     "markdown-it-testgen": "^0.1.6",
-    "mocha": "^10.0.0",
+    "mocha": "^10.2.0",
     "npm-watch": "^0.11.0"
   }
 }
