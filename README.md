@@ -7,17 +7,17 @@
 ```js
 const customBlock = require('markdown-it-custom-block')
 
-markdownit()
-  .use(customBlock, {
-    example (arg) {
-      return `<example-${arg}/>`
-    },
-    video (url) {
-      return `<video controls>
-        <source src="${url}" type="video/mp4">
-      </video>`
-    }
-  })
+const md = markdownit()
+md.use(customBlock, {
+  example (arg) {
+    return `<example-${md.utils.escapeHtml(arg)}/>`
+  },
+  video (url) {
+    return `<video controls>
+      <source src="${md.utils.escapeHtml(url)}" type="video/mp4">
+    </video>`
+  }
+})
 ```
 
 ```md
