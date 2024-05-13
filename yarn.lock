@@ -510,10 +510,10 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
-npm-watch@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/npm-watch/-/npm-watch-0.12.0.tgz#e85969cfea57d7603dff4b9f729219c4449a394a"
-  integrity sha512-4pBAB1bPcdvJRi+gQaHxAR7+oHuuZsntXMnkIAprwuM6xmFRI7RQW34AkJUin+q9RZutQG99MkWkkV3n21MdQg==
+npm-watch@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/npm-watch/-/npm-watch-0.13.0.tgz#e0d166d57eb03a42392f7b90809fc5d7c226f6f7"
+  integrity sha512-MYcgocqCzYA44feZhFoYj69FfSaO0EeRE1gcRcmPaXIpNhUMAhNJ1pwic2C4Hn0OPOQmZKSl90CPgmwvOsVhTg==
   dependencies:
     nodemon "^3.0.1"
     through2 "^4.0.2"
