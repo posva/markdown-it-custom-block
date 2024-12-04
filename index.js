@@ -1,7 +1,7 @@
 const embedRE = /@\[([\w-]+)\]\(([\s\S]+)\)/im
 
-module.exports = function plugin (md, options) {
-  md.renderer.rules.custom = function tokenizeBlock (tokens, idx) {
+export default function plugin(md, options) {
+  md.renderer.rules.custom = function tokenizeBlock(tokens, idx) {
     const { tag, arg } = tokens[idx].info
     if (!tag) return ''
     return options[tag](arg) + '\n'
@@ -10,7 +10,7 @@ module.exports = function plugin (md, options) {
   md.block.ruler.before(
     'fence',
     'custom',
-    function customEmbed (state, startLine, endLine, silent) {
+    function customEmbed(state, startLine, endLine, silent) {
       let startPos = state.bMarks[startLine] + state.tShift[startLine]
       let maxPos = state.eMarks[startLine]
       const block = state.src.slice(startPos, maxPos)
@@ -18,15 +18,16 @@ module.exports = function plugin (md, options) {
 
       // XXX wtf
       if (startLine !== 0) {
-        let prevLineStartPos = state.bMarks[startLine - 1] +
-              state.tShift[startLine - 1]
+        let prevLineStartPos = state.bMarks[startLine - 1] + state.tShift[startLine - 1]
         let prevLineMaxPos = state.eMarks[startLine - 1]
         if (prevLineMaxPos > prevLineStartPos) return false
       }
 
       // Check if it's @[tag](arg)
-      if (state.src.charCodeAt(pointer.pos) !== 0x40/* @ */ ||
-          state.src.charCodeAt(pointer.pos + 1) !== 0x5B/* [ */) {
+      if (
+        state.src.charCodeAt(pointer.pos) !== 0x40 /* @ */ ||
+        state.src.charCodeAt(pointer.pos + 1) !== 0x5b /* [ */
+      ) {
         return false
       }
 
@@ -55,12 +56,12 @@ module.exports = function plugin (md, options) {
         token.markup = state.src.slice(startPos, pointer.pos)
         token.info = { arg, tag }
         token.block = true
-        token.map = [ startLine, pointer.line + 1 ]
+        token.map = [startLine, pointer.line + 1]
         state.line = pointer.line + 1
       }
 
       return true
     },
-    { alt: [ 'paragraph', 'reference', 'blockquote', 'list' ] }
+    { alt: ['paragraph', 'reference', 'blockquote', 'list'] },
   )
 }

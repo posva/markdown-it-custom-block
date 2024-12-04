@@ -5,19 +5,18 @@
 ## Usage
 
 ```js
-const customBlock = require('markdown-it-custom-block')
+import customBlock from 'markdown-it-custom-block'
 
-markdownit()
-  .use(customBlock, {
-    example (arg) {
-      return `<example-${arg}/>`
-    },
-    video (url) {
-      return `<video controls>
+markdownit().use(customBlock, {
+  example(arg) {
+    return `<example-${arg}/>`
+  },
+  video(url) {
+    return `<video controls>
         <source src="${url}" type="video/mp4">
       </video>`
-    }
-  })
+  },
+})
 ```
 
 ```md
@@ -29,9 +28,9 @@ markdownit()
 becomes
 
 ```html
-<example-hello/>
+<example-hello />
 <video controls>
-  <source src="video.mp4" type="video/mp4">
+  <source src="video.mp4" type="video/mp4" />
 </video>
 ```
 
