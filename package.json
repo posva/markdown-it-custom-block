@@ -2,7 +2,7 @@
   "name": "markdown-it-custom-block",
   "description": "Custom blocks for markdown-it",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.15.3",
+  "packageManager": "pnpm@9.15.4",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
