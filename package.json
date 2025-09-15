@@ -2,7 +2,7 @@
   "name": "markdown-it-custom-block",
   "description": "Custom blocks for markdown-it",
   "version": "1.0.0",
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@10.16.1",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
@@ -26,7 +26,7 @@
     "markdown"
   ],
   "engines": {
-    "node": ">= 22.18.0"
+    "node": ">= 22.19.0"
   },
   "repository": {
     "type": "git",
@@ -41,7 +41,7 @@
     "@types/markdown-it": "^14.1.2",
     "markdown-it": "^14.1.0",
     "markdown-it-testgen": "^0.1.6",
-    "mocha": "^11.7.1",
+    "mocha": "^11.7.2",
     "npm-watch": "^0.13.0",
     "prettier": "^3.6.2"
   }
