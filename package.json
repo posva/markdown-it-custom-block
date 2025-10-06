@@ -2,7 +2,7 @@
   "name": "markdown-it-custom-block",
   "description": "Custom blocks for markdown-it",
   "version": "1.0.0",
-  "packageManager": "pnpm@10.17.1",
+  "packageManager": "pnpm@10.18.0",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
@@ -41,7 +41,7 @@
     "@types/markdown-it": "^14.1.2",
     "markdown-it": "^14.1.0",
     "markdown-it-testgen": "^0.1.6",
-    "mocha": "^11.7.2",
+    "mocha": "^11.7.4",
     "npm-watch": "^0.13.0",
     "prettier": "^3.6.2"
   }
