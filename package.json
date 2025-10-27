@@ -2,7 +2,7 @@
   "name": "markdown-it-custom-block",
   "description": "Custom blocks for markdown-it",
   "version": "1.0.0",
-  "packageManager": "pnpm@10.18.3",
+  "packageManager": "pnpm@10.19.0",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
@@ -26,7 +26,7 @@
     "markdown"
   ],
   "engines": {
-    "node": ">= 22.20.0"
+    "node": ">= 22.21.0"
   },
   "repository": {
     "type": "git",
