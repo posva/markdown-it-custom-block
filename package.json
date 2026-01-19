@@ -26,7 +26,7 @@
     "markdown"
   ],
   "engines": {
-    "node": ">= 24.12.0"
+    "node": ">= 24.13.0"
   },
   "repository": {
     "type": "git",
@@ -43,6 +43,6 @@
     "markdown-it-testgen": "^0.1.6",
     "mocha": "^11.7.5",
     "npm-watch": "^0.13.0",
-    "prettier": "^3.7.4"
+    "prettier": "^3.8.0"
   }
 }
