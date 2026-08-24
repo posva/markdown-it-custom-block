@@ -2,7 +2,7 @@
   "name": "markdown-it-custom-block",
   "description": "Custom blocks for markdown-it",
   "version": "1.0.0",
-  "packageManager": "pnpm@11.22.0",
+  "packageManager": "pnpm@11.23.0",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
@@ -38,7 +38,7 @@
   "homepage": "https://github.com/posva/markdown-it-custom-block#readme",
   "license": "MIT",
   "devDependencies": {
-    "@types/markdown-it": "^14.1.2",
+    "@types/markdown-it": "^14.2.0",
     "markdown-it": "^15.0.0",
     "markdown-it-testgen": "^0.1.6",
     "mocha": "^11.8.0",
